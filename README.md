@@ -20,6 +20,7 @@ This framework implements four powerful anomaly detection algorithms:
 
 - Isolation Forest: An ensemble method that isolates observations by randomly selecting a feature and a split value
 - One-Class SVM: A support vector machine that learns a boundary around normal data points
+- Local Outlier Factor: A nearest neighbors method that detects samples with substantially lower density than their neighbors
 - DBSCAN: A density-based clustering algorithm that identifies core samples in high-density regions and labels points in low-density regions as anomalies
 
 Each model provides different strengths for anomaly detection, allowing for comprehensive analysis of IAV flap behavior.
